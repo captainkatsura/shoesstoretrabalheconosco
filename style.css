@@ -1,0 +1,294 @@
+* {
+    /* border: 1px solid red; */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Esconde o overflow horizontal*/
+body {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 122px;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+}
+
+.logo {
+    margin-left: 20px;
+}
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+    padding-right: 34px;
+    font-weight: bold;
+}
+
+.escolhas-header {
+    text-decoration: none;
+    color: #777777;
+}
+
+
+
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    gap: 18px;
+    height: 800px;
+    padding-top: 55px;
+    margin-bottom: 60px;
+}
+
+.main-container1 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 123px;
+    padding-top: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    color: #575757;
+    text-align: left;
+    padding-left: 12px;
+}
+
+form {
+    padding-top: 56px;
+    font-family: 'Roboto', sans-serif;
+    color: #9B9B9B;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.dados-pessoais {
+    line-height: 35px;
+}
+
+input[type=text] {
+    width: 538px;
+    height: 26px;
+    border: 1px solid #9B9B9B;
+}
+
+input[type=email] {
+    width: 538px;
+    height: 26px;
+    border: 1px solid #9B9B9B;
+}
+
+input[type=tel] {
+    width: 538px;
+    height: 26px;
+    border: 1px solid #9B9B9B;
+}
+
+.departamentos {
+    display: flex;
+    flex-direction: column;
+}
+
+#dep {}
+
+select {
+    width: 538px;
+    height: 26px;
+    border: 1px solid #9B9B9B;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #9B9B9B;
+}
+
+.disponibilidade {
+    display: flex;
+    width: 310px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+input[type=checkbox] {
+    align-self: center;
+    width: 15px;
+    height: 15px;
+    color: #C4C4C4;
+    padding-bottom: 10px;
+    padding-right: 8px;
+}
+
+.contato {
+    display: flex;
+    width: 300px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+input[type=radio] {
+    align-self: center;
+    width: 15px;
+    height: 15px;
+    background: #C4C4C4;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.msg {}
+
+#mensagem {
+    width: 536.64px;
+    height: 78px;
+    border: 1px solid #9B9B9B;
+    margin-top: 12px;
+}
+
+.cv {
+    line-height: 70px;
+}
+
+input[type=file] {
+    background-color: #c4c4c4;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+button {
+    width: 539px;
+    height: 40px;
+    background: #C2185B;
+    color: #ffffff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+    text-decoration: none;
+    transition: 3s;
+}
+
+button:hover {
+    color: #C2185B;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+}
+
+
+.main-container2 {
+    width: 40%;
+    padding-top: 138px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #575757;
+}
+
+
+
+
+
+footer {
+    margin: 0px;
+    padding: 0px;
+    height: 248px;
+    width: 100vw;
+    background-color: #C2185B;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+
+.footer-container1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 40vw;
+    padding-left: 18px;
+    padding-bottom: 10px;
+}
+
+.logo-branco {
+    width: 233px;
+    height: 123px;
+}
+
+.texto-footer {
+    font-size: 14px;
+    width: 255px;
+    color: #ffffff;
+}
+
+.footer-container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    padding-top: 48px;
+}
+
+.categorias-footer {
+    justify-content: left;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menus-footer {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.escolhas-footer {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.institucional-footer {
+    padding-right: 140px;
+}

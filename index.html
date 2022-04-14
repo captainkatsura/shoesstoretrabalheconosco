@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Store parte 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+    </style>
+</head>
+
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="./image/logo-color.png" alt="logo">
+        </div>
+        <nav>
+            <ul class="menu-header">
+                <li><a class="escolhas-header" href="#">TODOS OS PRODUTOS</a></li>
+                <li><a class="escolhas-header" href="#">COLEÇÕES</a></li>
+                <li><a class="escolhas-header" href="#">OUTLET</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-container1">
+            <h1>Faça parte do nosso time</h1>
+            <form action="/trabalhe-conosco" method="POST">
+            <div class="dados-pessoais">
+                <label for="nome">Nome</label>  <br>
+                <input type="text" name="nome">  <br>
+                <label for="e-mail">Email</label>  <br>
+                <input type="email" name="e-mail">  <br>
+                <label for="telefone">Telefone</label>  <br>
+                <input type="tel" name="telefone"> 
+            </div><br>
+            <div class="departamentos">
+                <label for="departamento">Departamento</label>  <br>
+                <select id="dep" name="departamento">
+                    <option value="compras">Compras</option>
+                    <option value="vendas">Vendas</option>
+                    <option value="faturamento">Faturamento</option>
+                    </select>
+            </div><br>
+            <h3>Disponibilidade</h3>
+            <div class="disponibilidade">
+                <input type="checkbox" name="disponibilidade" value="Integral">
+                <label for="disponibilidade">Integral (8h)</label>
+                <input type="checkbox" name="disponibilidade" value="Meio-período">
+                <label for="disponibilidade">Meio-período (4h)</label>
+                <input type="checkbox" name="disponibilidade" value="Freelancer">
+                <label for="disponibilidade">Freelancer</label>
+            </div><br>
+            <h3>Qual a melhor forma para entrarmos em contato com você?</h3>
+            <div class="contato">
+                <input type="radio" name="contato" value="Email">
+                <label for="contato">E-mail</label>
+                <input type="radio" name="contato" value="Ligação">
+                <label for="contato">Ligação</label>
+                <input type="radio" name="contato" value="WhatsApp">
+                <label for="contato">WhatsApp</label>
+            </div>
+            <div class="msg"><br>
+                <label>Mensagem</label>
+                <br>
+                <textarea name="mensagem" id="mensagem"></textarea>
+            </div>
+            <div class="cv">
+                <label>Currículo</label>
+                <input type="file" name="curriculo" accept=".pdf">
+            </div>
+            <button>enviar</button>
+            </form>
+        </div>
+
+        <div class="main-container2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <br><br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container1">
+            <img class="logo-branco" src="./image/logo-white.png" alt="logo branco">
+            <p class="texto-footer">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+        <div class="footer-container2">
+            <nav class="categorias-footer">
+                <h4>categorias</h4>
+                <ul class="menus-footer">
+                    <li><a class="escolhas-footer" href="#">sandálias</a></li>
+                    <li><a class="escolhas-footer" href="#">botas</a></li>
+                    <li><a class="escolhas-footer" href="#">tênis</a></li>
+                    <li><a class="escolhas-footer" href="#">oxford</a></li>
+                    <li><a class="escolhas-footer" href="#">coturnos</a></li>
+                </ul>
+            </nav>
+            <nav class="institucional-footer">
+                <h4>institucional</h4>
+                <ul class="menus-footer">
+                    <li><a class="escolhas-footer" href="#">sobre nós</a></li>
+                    <li><a class="escolhas-footer" href="#">perguntas frequentes</a></li>
+                    <li><a class="escolhas-footer" href="#">política de privacidade</a></li>
+                    <li><a class="escolhas-footer" href="#">rastreamento de pedidos</a></li>
+                    <li><a class="escolhas-footer" href="#">trabalhe conosco</a></li>
+                    <li><a class="escolhas-footer" href="#">contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
