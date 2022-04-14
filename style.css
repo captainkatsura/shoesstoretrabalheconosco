@@ -86,19 +86,19 @@ form {
 }
 
 input[type=text] {
-    width: 538px;
+    width: 82%;
     height: 26px;
     border: 1px solid #9B9B9B;
 }
 
 input[type=email] {
-    width: 538px;
+    width: 82%;
     height: 26px;
     border: 1px solid #9B9B9B;
 }
 
 input[type=tel] {
-    width: 538px;
+    width: 82%;
     height: 26px;
     border: 1px solid #9B9B9B;
 }
@@ -108,7 +108,9 @@ input[type=tel] {
     flex-direction: column;
 }
 
-#dep {}
+#dep {
+    width: 82%;
+}
 
 select {
     width: 538px;
@@ -169,7 +171,7 @@ input[type=radio] {
 .msg {}
 
 #mensagem {
-    width: 536.64px;
+    width: 82%;
     height: 78px;
     border: 1px solid #9B9B9B;
     margin-top: 12px;
@@ -190,7 +192,7 @@ input[type=file] {
 }
 
 button {
-    width: 539px;
+    width: 82%;
     height: 40px;
     background: #C2185B;
     color: #ffffff;
@@ -214,6 +216,7 @@ button:hover {
 .main-container2 {
     width: 40%;
     padding-top: 138px;
+    display: flex;
 }
 
 p {
@@ -291,4 +294,24 @@ h4 {
 
 .institucional-footer {
     padding-right: 140px;
+}
+
+
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #C2185B;
+    height: 70px;
+    width: 100%;
+    z-index: 10;
+    top: 0122px;
+}
+
+.promocao {
+    display: flex;
+    position: fixed;
+    color: #ffffff;
+    z-index: -1;
 }
