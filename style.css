@@ -41,6 +41,31 @@ header {
 }
 
 
+aside {
+    position: sticky;
+    top: 0%;
+}
+
+.propaganda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #C2185B;
+    height: 70px;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
+.promocao {
+    display: flex;
+    position: absolute;
+    color: #ffffff;
+    z-index: -1;
+}
+
+
 
 
 
@@ -297,21 +322,3 @@ h4 {
 }
 
 
-aside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-color: #C2185B;
-    height: 70px;
-    width: 100%;
-    z-index: 10;
-    top: 0122px;
-}
-
-.promocao {
-    display: flex;
-    position: fixed;
-    color: #ffffff;
-    z-index: -1;
-}
